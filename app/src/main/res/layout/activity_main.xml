@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff">
+
+    <com.shevelev.android_example_carousel.CarouselRecyclerView
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:background="#6A80F5"
+        />
+
+    <TextView
+        android:id="@+id/selectedItemId"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:text = "USA"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
