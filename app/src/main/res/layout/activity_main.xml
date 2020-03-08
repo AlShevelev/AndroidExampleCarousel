@@ -12,7 +12,7 @@
         android:layout_gravity="top"
         android:clipToPadding="false"
         android:overScrollMode="never"
-        android:background="#6A80F5"
+        android:background="@android:color/black"
         />
 
     <TextView
